@@ -15,7 +15,7 @@
 
 ## 📸 Preview
 
-![Portfolio Preview](images/bluefox.jpg)
+![Portfolio Preview](portfolio_preview.jpeg)
 
 ---
 
