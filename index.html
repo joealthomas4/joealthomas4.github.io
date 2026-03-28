@@ -25,11 +25,14 @@
             z-index: 1000;
             border-bottom: 1px solid rgba(0,0,0,0.08);
         }
-        nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; }
-        .logo {
-            font-size: 1.4rem; font-weight: 600;
-            background: linear-gradient(135deg, #007aff, #5856d6);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        nav { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 16px 0;
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            overflow: hidden;
         }
         .nav-links { display: flex; list-style: none; gap: 32px; }
         .nav-links a {
@@ -379,7 +382,7 @@
 
     <header>
         <nav class="container">
-            <div class="logo">Joeal Bijoy Thomas</div>
+            <div class="logo"><h4>Joeal Bijoy Thomas</h4></div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -387,6 +390,20 @@
                 <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><div class="resume-buttons">
+   <div class="resume-buttons">
+    <a href="Joeal_Thomas_Resume_DS.pdf" 
+       target="_blank" 
+       class="cta-button">
+        👁️ View Resume
+    </a>
+    <a href="Joeal_Thomas_Resume_DS.pdf" 
+       download="Joeal_Thomas_Resume_DS.pdf"
+       class="cta-button secondary">
+        📥 Download Resume
+    </a>
+</div>
+</div></li>
             </ul>
             <div class="hamburger"><span></span><span></span><span></span></div>
         </nav>
