@@ -15,7 +15,7 @@
 
 ## 📸 Preview
 
-![Portfolio Preview](portfolio_preview.jpeg)
+![Portfolio Preview](images\portfolio_preview.jpeg)
 
 ---
 
